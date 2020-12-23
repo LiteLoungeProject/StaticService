@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiteLoungeProject.StaticService.Domain.Contracts\LiteLoungeProject.StaticService.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\LiteLoungeProject.StaticService.Persistence.Contracts\LiteLoungeProject.StaticService.Persistence.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

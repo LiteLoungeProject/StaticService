@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiteLoungeProject.StaticService.Application.Models\LiteLoungeProject.StaticService.Application.Models.csproj" />
+    <ProjectReference Include="..\LiteLoungeProject.StaticService.Domain.Models\LiteLoungeProject.StaticService.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>
