@@ -20,48 +20,54 @@ namespace LiteLoungeProject.StaticService.Persistence.Repositories
             {
                new ProductEntity
                {
-                    Id = 0,
-                    Title = "title",
-                    Text = "text",
-                    ImageUrl = "imageUrl",
-                    Price = 0.11m,
-                    CategoryModelId = 0
+                   Id = 1, Title = "title1",
+                   Text = "text1",
+                   ImageUrl = "imageUrl-1",
+                   Price = 1,
+                   CategoryModelId = 0
                },
                new ProductEntity
                {
-                    Id = 1,
-                    Title = "title",
-                    Text = "text",
-                    ImageUrl = "imageUrl",
-                    Price = 0.11m,
-                    CategoryModelId = 1
+                   Id = 2, Title = "title2",
+                   Text = "text2",
+                   ImageUrl = "imageUrl-2",
+                   Price = 2,
+                   CategoryModelId = 0
                },
                new ProductEntity
                {
-                    Id = 2,
-                    Title = "title",
-                    Text = "text",
-                    ImageUrl = "imageUrl",
-                    Price = 0.11m,
-                    CategoryModelId = 0
+                   Id = 3, Title = "title3",
+                   Text = "text3",
+                   ImageUrl = "imageUrl-3",
+                   Price = 3,
+                   CategoryModelId = 0
                },
                 new ProductEntity
                {
-                    Id = 3,
-                    Title = "title",
-                    Text = "text",
-                    ImageUrl = "imageUrl",
-                    Price = 0.11m,
+                    Id = 4,
+                    Title = "title4",
+                    Text = "text4",
+                    ImageUrl = "imageUrl-4",
+                    Price = 4,
                     CategoryModelId = 1
                },
                  new ProductEntity
                {
-                    Id = 4,
-                    Title = "title",
-                    Text = "text",
-                    ImageUrl = "imageUrl",
-                    Price = 0.11m,
-                    CategoryModelId = 0
+                    Id = 5,
+                     Title = "title5",
+                     Text = "text5",
+                     ImageUrl = "imageUrl-5",
+                     Price = 5,
+                    CategoryModelId = 1
+               },
+                  new ProductEntity
+               {
+                   Id = 6,
+                      Title = "title6",
+                      Text = "text6",
+                      ImageUrl = "imageUrl-6",
+                      Price = 6,
+                    CategoryModelId = 1
                }
             };
         }
@@ -70,12 +76,13 @@ namespace LiteLoungeProject.StaticService.Persistence.Repositories
         {
             return new ProductEntity
             {
-                Id = 0,
-                Title = "title",
-                Text = "text",
-                ImageUrl = "imageUrl",
-                Price = 0.11m,
-                CategoryModelId = 0
+
+                Id = 6,
+                Title = "title6",
+                Text = "text6",
+                ImageUrl = "imageUrl-6",
+                Price = 6,
+                CategoryModelId = 1
 
             };
         }
